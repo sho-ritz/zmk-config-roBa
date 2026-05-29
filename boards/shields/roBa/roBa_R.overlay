@@ -19,6 +19,11 @@
         status = "okay";
         compatible = "zmk,input-listener";
         device = <&trackball>;
+
+        scroller {
+            layers = <3>;
+            input-processors = <&zip_xy_to_scroll_mapper>;
+        };
     };
 };
 
