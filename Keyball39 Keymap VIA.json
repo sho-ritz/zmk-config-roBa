@@ -1,0 +1,1489 @@
+{
+  "schema": "keymap-cheatsheet-json-v2",
+  "source": {
+    "file": "Keymap Cheatsheet.pdf",
+    "title": "Keyball39 keymap's cheat sheet (English (US))",
+    "app": "Remap",
+    "source_url_text": "https://remap-keys.app",
+    "note": "This is not a native VIA export. It is a detailed JSON transcription of every visible key label in the PDF cheatsheet. Raw labels are preserved as shown as much as possible."
+  },
+  "legend": {
+    "prefix_asterisk": "The printed '*' is preserved from the cheatsheet. It usually indicates a held modifier or mod-tap/hold behavior in the rendered Remap sheet, but the exact QMK keycode is not recoverable from the PDF alone.",
+    "S": "Shift",
+    "C": "Ctrl",
+    "A": "Alt",
+    "Win": "Windows / Command depending on OS mapping",
+    "Win/Cmd": "Windows / Command",
+    "Layer(n)": "Momentary/tap layer behavior as printed in the cheatsheet",
+    "Lang 1": "Language key 1 as printed",
+    "Lang 2": "Language key 2 as printed",
+    "▽": "Transparent / pass-through key in Remap display",
+    "Kb n": "Keyboard/custom keycode label as printed",
+    "UG Bright -": "Underglow brightness down as printed",
+    "RGB Mode Twinkle": "RGB mode twinkle as printed",
+    "Mouse Btn1": "Mouse button 1",
+    "Mouse Btn2": "Mouse button 2"
+  },
+  "physical_order": {
+    "description": "Each layer uses the same physical key IDs. IDs encode side + column + row or thumb position. This is designed for AI-based migration to another keyboard layout such as roBa.",
+    "order": [
+      "L0_0",
+      "L0_1",
+      "L0_2",
+      "L0_3",
+      "L1_0",
+      "L1_1",
+      "L1_2",
+      "L1_3",
+      "L2_0",
+      "L2_1",
+      "L2_2",
+      "L2_3",
+      "L3_0",
+      "L3_1",
+      "L3_2",
+      "L4_0",
+      "L4_1",
+      "L4_2",
+      "LT0",
+      "LT1",
+      "LT2",
+      "RT0",
+      "RT1",
+      "RT2",
+      "R0_0",
+      "R0_1",
+      "R0_2",
+      "R1_0",
+      "R1_1",
+      "R1_2",
+      "R2_0",
+      "R2_1",
+      "R2_2",
+      "R2_3",
+      "R3_0",
+      "R3_1",
+      "R3_2",
+      "R3_3",
+      "R4_0",
+      "R4_1",
+      "R4_2",
+      "R4_3"
+    ],
+    "groups": [
+      "left.matrix.outer_4",
+      "left.matrix.index_4",
+      "left.matrix.middle_4",
+      "left.matrix.ring_3",
+      "left.matrix.inner_3",
+      "left.thumbs_3",
+      "right.thumbs_3",
+      "right.matrix.inner_3",
+      "right.matrix.ring_3",
+      "right.matrix.middle_4",
+      "right.matrix.index_4",
+      "right.matrix.outer_4"
+    ]
+  },
+  "layers": [
+    {
+      "index": 0,
+      "name": "Layer 0",
+      "purpose_guess": "base typing layer",
+      "keys_by_group": {
+        "left": {
+          "matrix": {
+            "outer_4": [
+              {
+                "id": "L0_0",
+                "label": "Q",
+                "row": 0,
+                "col": 0,
+                "tap": "Q"
+              },
+              {
+                "id": "L0_1",
+                "label": "A",
+                "row": 1,
+                "col": 0,
+                "tap": "A"
+              },
+              {
+                "id": "L0_2",
+                "label": "Z",
+                "row": 2,
+                "col": 0,
+                "tap": "Z"
+              },
+              {
+                "id": "L0_3",
+                "label": "*Win",
+                "row": 3,
+                "col": 0,
+                "hold": "Win"
+              }
+            ],
+            "index_4": [
+              {
+                "id": "L1_0",
+                "label": "W",
+                "row": 0,
+                "col": 1,
+                "tap": "W"
+              },
+              {
+                "id": "L1_1",
+                "label": "S",
+                "row": 1,
+                "col": 1,
+                "tap": "S"
+              },
+              {
+                "id": "L1_2",
+                "label": "X",
+                "row": 2,
+                "col": 1,
+                "tap": "X"
+              },
+              {
+                "id": "L1_3",
+                "label": "*Ctrl",
+                "row": 3,
+                "col": 1,
+                "hold": "Ctrl"
+              }
+            ],
+            "middle_4": [
+              {
+                "id": "L2_0",
+                "label": "E",
+                "row": 0,
+                "col": 2,
+                "tap": "E"
+              },
+              {
+                "id": "L2_1",
+                "label": "D",
+                "row": 1,
+                "col": 2,
+                "tap": "D"
+              },
+              {
+                "id": "L2_2",
+                "label": "C",
+                "row": 2,
+                "col": 2,
+                "tap": "C"
+              },
+              {
+                "id": "L2_3",
+                "label": "*Alt",
+                "row": 3,
+                "col": 2,
+                "hold": "Alt"
+              }
+            ],
+            "ring_3": [
+              {
+                "id": "L3_0",
+                "label": "R",
+                "row": 0,
+                "col": 3,
+                "tap": "R"
+              },
+              {
+                "id": "L3_1",
+                "label": "F",
+                "row": 1,
+                "col": 3,
+                "tap": "F"
+              },
+              {
+                "id": "L3_2",
+                "label": "V",
+                "row": 2,
+                "col": 3,
+                "tap": "V"
+              }
+            ],
+            "inner_3": [
+              {
+                "id": "L4_0",
+                "label": "T",
+                "row": 0,
+                "col": 4,
+                "tap": "T"
+              },
+              {
+                "id": "L4_1",
+                "label": "G",
+                "row": 1,
+                "col": 4,
+                "tap": "G"
+              },
+              {
+                "id": "L4_2",
+                "label": "B",
+                "row": 2,
+                "col": 4,
+                "tap": "B"
+              }
+            ]
+          },
+          "thumbs": [
+            {
+              "id": "LT0",
+              "label": "Lang 2\n*Shift",
+              "position": "left_thumb_left",
+              "tap": "Lang 2",
+              "hold": "Shift"
+            },
+            {
+              "id": "LT1",
+              "label": "Space\nLayer(1)",
+              "position": "left_thumb_center",
+              "tap": "Space",
+              "layer": "Layer(1)"
+            },
+            {
+              "id": "LT2",
+              "label": "Lang 1\nLayer(3)",
+              "position": "left_thumb_right",
+              "tap": "Lang 1",
+              "layer": "Layer(3)"
+            }
+          ]
+        },
+        "right": {
+          "thumbs": [
+            {
+              "id": "RT0",
+              "label": "BS",
+              "position": "right_thumb_left",
+              "tap": "Backspace"
+            },
+            {
+              "id": "RT1",
+              "label": "Enter\nLayer(2)",
+              "position": "right_thumb_center",
+              "tap": "Enter",
+              "layer": "Layer(2)"
+            },
+            {
+              "id": "RT2",
+              "label": "Lang 2\n*Shift",
+              "position": "right_thumb_right",
+              "tap": "Lang 2",
+              "hold": "Shift"
+            }
+          ],
+          "matrix": {
+            "inner_3": [
+              {
+                "id": "R0_0",
+                "label": "Y",
+                "row": 0,
+                "col": 0,
+                "tap": "Y"
+              },
+              {
+                "id": "R0_1",
+                "label": "H",
+                "row": 1,
+                "col": 0,
+                "tap": "H"
+              },
+              {
+                "id": "R0_2",
+                "label": "N",
+                "row": 2,
+                "col": 0,
+                "tap": "N"
+              }
+            ],
+            "ring_3": [
+              {
+                "id": "R1_0",
+                "label": "U",
+                "row": 0,
+                "col": 1,
+                "tap": "U"
+              },
+              {
+                "id": "R1_1",
+                "label": "J",
+                "row": 1,
+                "col": 1,
+                "tap": "J"
+              },
+              {
+                "id": "R1_2",
+                "label": "M",
+                "row": 2,
+                "col": 1,
+                "tap": "M"
+              }
+            ],
+            "middle_4": [
+              {
+                "id": "R2_0",
+                "label": "I",
+                "row": 0,
+                "col": 2,
+                "tap": "I"
+              },
+              {
+                "id": "R2_1",
+                "label": "K",
+                "row": 1,
+                "col": 2,
+                "tap": "K"
+              },
+              {
+                "id": "R2_2",
+                "label": "<\n,",
+                "row": 2,
+                "col": 2,
+                "tap": ",",
+                "shifted": "<"
+              },
+              {
+                "id": "R2_3",
+                "label": "Alt*",
+                "row": 3,
+                "col": 2,
+                "hold": "Alt"
+              }
+            ],
+            "index_4": [
+              {
+                "id": "R3_0",
+                "label": "O",
+                "row": 0,
+                "col": 3,
+                "tap": "O"
+              },
+              {
+                "id": "R3_1",
+                "label": "L",
+                "row": 1,
+                "col": 3,
+                "tap": "L"
+              },
+              {
+                "id": "R3_2",
+                "label": ">\n.",
+                "row": 2,
+                "col": 3,
+                "tap": ".",
+                "shifted": ">"
+              },
+              {
+                "id": "R3_3",
+                "label": "Win*",
+                "row": 3,
+                "col": 3,
+                "hold": "Win"
+              }
+            ],
+            "outer_4": [
+              {
+                "id": "R4_0",
+                "label": "P",
+                "row": 0,
+                "col": 4,
+                "tap": "P"
+              },
+              {
+                "id": "R4_1",
+                "label": "-\n*Win/Cmd",
+                "row": 1,
+                "col": 4,
+                "tap": "-",
+                "hold": "Win/Cmd"
+              },
+              {
+                "id": "R4_2",
+                "label": "-\nLayer(3)",
+                "row": 2,
+                "col": 4,
+                "tap": "-",
+                "layer": "Layer(3)"
+              },
+              {
+                "id": "R4_3",
+                "label": "*Win",
+                "row": 3,
+                "col": 4,
+                "hold": "Win"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "index": 1,
+      "name": "Layer 1",
+      "purpose_guess": "symbols, mouse buttons, function keys",
+      "keys_by_group": {
+        "left": {
+          "matrix": {
+            "outer_4": [
+              {
+                "id": "L0_0",
+                "label": "(*S+,)\n<",
+                "tap": "<",
+                "source_combo": "Shift + ,"
+              },
+              {
+                "id": "L0_1",
+                "label": "Tab",
+                "tap": "Tab"
+              },
+              {
+                "id": "L0_2",
+                "label": "(*S+=)\n+",
+                "tap": "+",
+                "source_combo": "Shift + ="
+              },
+              {
+                "id": "L0_3",
+                "label": "Ro",
+                "tap": "Ro"
+              }
+            ],
+            "index_4": [
+              {
+                "id": "L1_0",
+                "label": "(*S+3)\n#",
+                "tap": "#",
+                "source_combo": "Shift + 3"
+              },
+              {
+                "id": "L1_1",
+                "label": "(*S+1)\n!",
+                "tap": "!",
+                "source_combo": "Shift + 1"
+              },
+              {
+                "id": "L1_2",
+                "label": "*Ctrl\nX",
+                "tap": "X",
+                "hold": "Ctrl"
+              },
+              {
+                "id": "L1_3",
+                "label": "+\n=",
+                "tap": "=",
+                "shifted": "+"
+              }
+            ],
+            "middle_4": [
+              {
+                "id": "L2_0",
+                "label": "(*S+8)\n*",
+                "tap": "*",
+                "source_combo": "Shift + 8"
+              },
+              {
+                "id": "L2_1",
+                "label": "(*S+6)\n^",
+                "tap": "^",
+                "source_combo": "Shift + 6"
+              },
+              {
+                "id": "L2_2",
+                "label": "(*S+')\n\"",
+                "tap": "\"",
+                "source_combo": "Shift + '"
+              },
+              {
+                "id": "L2_3",
+                "label": "(*S+[)\n{",
+                "tap": "{",
+                "source_combo": "Shift + ["
+              }
+            ],
+            "ring_3": [
+              {
+                "id": "L3_0",
+                "label": "(*S+9)\n(",
+                "tap": "(",
+                "source_combo": "Shift + 9"
+              },
+              {
+                "id": "L3_1",
+                "label": "(*S+2)\n@",
+                "tap": "@",
+                "source_combo": "Shift + 2"
+              },
+              {
+                "id": "L3_2",
+                "label": "*Shift\n¥",
+                "tap": "¥",
+                "hold": "Shift"
+              }
+            ],
+            "inner_3": [
+              {
+                "id": "L4_0",
+                "label": "(*S+.)\n>",
+                "tap": ">",
+                "source_combo": "Shift + ."
+              },
+              {
+                "id": "L4_1",
+                "label": "(*S+])\n}",
+                "tap": "}",
+                "source_combo": "Shift + ]"
+              },
+              {
+                "id": "L4_2",
+                "label": "(*S+\\)\n|",
+                "tap": "|",
+                "source_combo": "Shift + backslash"
+              }
+            ]
+          },
+          "thumbs": [
+            {
+              "id": "LT0",
+              "label": "*Win",
+              "hold": "Win"
+            },
+            {
+              "id": "LT1",
+              "label": "▽",
+              "tap": "transparent"
+            },
+            {
+              "id": "LT2",
+              "label": "Esc",
+              "tap": "Esc"
+            }
+          ]
+        },
+        "right": {
+          "thumbs": [
+            {
+              "id": "RT0",
+              "label": "*Win",
+              "hold": "Win"
+            },
+            {
+              "id": "RT1",
+              "label": "*Shift",
+              "hold": "Shift"
+            },
+            {
+              "id": "RT2",
+              "label": "▽",
+              "tap": "transparent"
+            }
+          ],
+          "matrix": {
+            "inner_3": [
+              {
+                "id": "R0_0",
+                "label": "Esc",
+                "tap": "Esc"
+              },
+              {
+                "id": "R0_1",
+                "label": "*Shift\nRo",
+                "tap": "Ro",
+                "hold": "Shift"
+              },
+              {
+                "id": "R0_2",
+                "label": "{\n[",
+                "tap": "[",
+                "shifted": "{"
+              }
+            ],
+            "ring_3": [
+              {
+                "id": "R1_0",
+                "label": "}\n]",
+                "tap": "]",
+                "shifted": "}"
+              },
+              {
+                "id": "R1_1",
+                "label": "Mouse\nBtn1",
+                "tap": "Mouse Btn1"
+              },
+              {
+                "id": "R1_2",
+                "label": "(*S+4)\n$",
+                "tap": "$",
+                "source_combo": "Shift + 4"
+              }
+            ],
+            "middle_4": [
+              {
+                "id": "R2_0",
+                "label": "|\n\\",
+                "tap": "\\",
+                "shifted": "|"
+              },
+              {
+                "id": "R2_1",
+                "label": "Mouse\nBtn2",
+                "tap": "Mouse Btn2"
+              },
+              {
+                "id": "R2_2",
+                "label": "(*S+5)\n%",
+                "tap": "%",
+                "source_combo": "Shift + 5"
+              },
+              {
+                "id": "R2_3",
+                "label": "Alt*",
+                "hold": "Alt"
+              }
+            ],
+            "index_4": [
+              {
+                "id": "R3_0",
+                "label": "*Ctrl\nO",
+                "tap": "O",
+                "hold": "Ctrl"
+              },
+              {
+                "id": "R3_1",
+                "label": "?\n/",
+                "tap": "/",
+                "shifted": "?"
+              },
+              {
+                "id": "R3_2",
+                "label": "*Shift\nD",
+                "tap": "D",
+                "hold": "Shift"
+              },
+              {
+                "id": "R3_3",
+                "label": "Win*",
+                "hold": "Win"
+              }
+            ],
+            "outer_4": [
+              {
+                "id": "R4_0",
+                "label": "\"\n'",
+                "tap": "'",
+                "shifted": "\""
+              },
+              {
+                "id": "R4_1",
+                "label": ":\n;",
+                "tap": ";",
+                "shifted": ":"
+              },
+              {
+                "id": "R4_2",
+                "label": "F11",
+                "tap": "F11"
+              },
+              {
+                "id": "R4_3",
+                "label": "F12",
+                "tap": "F12"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "index": 2,
+      "name": "Layer 2",
+      "purpose_guess": "numbers, arrows, navigation, volume, mouse buttons",
+      "keys_by_group": {
+        "left": {
+          "matrix": {
+            "outer_4": [
+              {
+                "id": "L0_0",
+                "label": "*Ctrl\n-",
+                "tap": "-",
+                "hold": "Ctrl"
+              },
+              {
+                "id": "L0_1",
+                "label": "@\n*Win/Cmd",
+                "tap": "@",
+                "hold": "Win/Cmd"
+              },
+              {
+                "id": "L0_2",
+                "label": "?\n/",
+                "tap": "/",
+                "shifted": "?"
+              },
+              {
+                "id": "L0_3",
+                "label": "Esc",
+                "tap": "Esc"
+              }
+            ],
+            "index_4": [
+              {
+                "id": "L1_0",
+                "label": "!\n1",
+                "tap": "1",
+                "shifted": "!"
+              },
+              {
+                "id": "L1_1",
+                "label": "$\n4",
+                "tap": "4",
+                "shifted": "$"
+              },
+              {
+                "id": "L1_2",
+                "label": "&\n7",
+                "tap": "7",
+                "shifted": "&"
+              },
+              {
+                "id": "L1_3",
+                "label": ")\n0",
+                "tap": "0",
+                "shifted": ")"
+              }
+            ],
+            "middle_4": [
+              {
+                "id": "L2_0",
+                "label": "@\n2",
+                "tap": "2",
+                "shifted": "@"
+              },
+              {
+                "id": "L2_1",
+                "label": "%\n5",
+                "tap": "5",
+                "shifted": "%"
+              },
+              {
+                "id": "L2_2",
+                "label": "*\n8",
+                "tap": "8",
+                "shifted": "*"
+              },
+              {
+                "id": "L2_3",
+                "label": ">\n.",
+                "tap": ".",
+                "shifted": ">"
+              }
+            ],
+            "ring_3": [
+              {
+                "id": "L3_0",
+                "label": "#\n3",
+                "tap": "3",
+                "shifted": "#"
+              },
+              {
+                "id": "L3_1",
+                "label": "^\n6",
+                "tap": "6",
+                "shifted": "^"
+              },
+              {
+                "id": "L3_2",
+                "label": "(\n9",
+                "tap": "9",
+                "shifted": "("
+              }
+            ],
+            "inner_3": [
+              {
+                "id": "L4_0",
+                "label": "-\n-",
+                "tap": "-"
+              },
+              {
+                "id": "L4_1",
+                "label": "(*S+\\)\n|",
+                "tap": "|",
+                "source_combo": "Shift + backslash"
+              },
+              {
+                "id": "L4_2",
+                "label": "(*S+-)\n_",
+                "tap": "_",
+                "source_combo": "Shift + -"
+              }
+            ]
+          },
+          "thumbs": [
+            {
+              "id": "LT0",
+              "label": "*Shift",
+              "hold": "Shift"
+            },
+            {
+              "id": "LT1",
+              "label": "*Win",
+              "hold": "Win"
+            },
+            {
+              "id": "LT2",
+              "label": "*Alt",
+              "hold": "Alt"
+            }
+          ]
+        },
+        "right": {
+          "thumbs": [
+            {
+              "id": "RT0",
+              "label": "▽",
+              "tap": "transparent"
+            },
+            {
+              "id": "RT1",
+              "label": "▽",
+              "tap": "transparent"
+            },
+            {
+              "id": "RT2",
+              "label": "▽",
+              "tap": "transparent"
+            }
+          ],
+          "matrix": {
+            "inner_3": [
+              {
+                "id": "R0_0",
+                "label": "*Win/Cmd\n←",
+                "tap": "←",
+                "hold": "Win/Cmd"
+              },
+              {
+                "id": "R0_1",
+                "label": "Mouse\nBtn1",
+                "tap": "Mouse Btn1"
+              },
+              {
+                "id": "R0_2",
+                "label": "(*S+\\)\n|",
+                "tap": "|",
+                "source_combo": "Shift + backslash"
+              }
+            ],
+            "ring_3": [
+              {
+                "id": "R1_0",
+                "label": "*C+S\nTab",
+                "tap": "Tab",
+                "modifiers": [
+                  "Ctrl",
+                  "Shift"
+                ]
+              },
+              {
+                "id": "R1_1",
+                "label": "←",
+                "tap": "←"
+              },
+              {
+                "id": "R1_2",
+                "label": "←",
+                "tap": "←"
+              }
+            ],
+            "middle_4": [
+              {
+                "id": "R2_0",
+                "label": "↑",
+                "tap": "↑"
+              },
+              {
+                "id": "R2_1",
+                "label": "↓",
+                "tap": "↓"
+              },
+              {
+                "id": "R2_2",
+                "label": "↓",
+                "tap": "↓"
+              },
+              {
+                "id": "R2_3",
+                "label": "▽",
+                "tap": "transparent"
+              }
+            ],
+            "index_4": [
+              {
+                "id": "R3_0",
+                "label": "*Ctrl\nTab",
+                "tap": "Tab",
+                "hold": "Ctrl"
+              },
+              {
+                "id": "R3_1",
+                "label": "→",
+                "tap": "→"
+              },
+              {
+                "id": "R3_2",
+                "label": "→",
+                "tap": "→"
+              },
+              {
+                "id": "R3_3",
+                "label": "▽",
+                "tap": "transparent"
+              }
+            ],
+            "outer_4": [
+              {
+                "id": "R4_0",
+                "label": "*Win/Cmd\n→",
+                "tap": "→",
+                "hold": "Win/Cmd"
+              },
+              {
+                "id": "R4_1",
+                "label": "Mouse\nBtn2",
+                "tap": "Mouse Btn2"
+              },
+              {
+                "id": "R4_2",
+                "label": "Vol +",
+                "tap": "Audio Vol +"
+              },
+              {
+                "id": "R4_3",
+                "label": "Vol -",
+                "tap": "Audio Vol -"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "index": 3,
+      "name": "Layer 3",
+      "purpose_guess": "shortcuts, RGB/audio, bootloader, custom keycodes",
+      "keys_by_group": {
+        "left": {
+          "matrix": {
+            "outer_4": [
+              {
+                "id": "L0_0",
+                "label": "*S+W\n4",
+                "tap": "4",
+                "modifiers": [
+                  "Shift",
+                  "Win"
+                ]
+              },
+              {
+                "id": "L0_1",
+                "label": "*S+A\nF12",
+                "tap": "F12",
+                "modifiers": [
+                  "Shift",
+                  "Alt"
+                ]
+              },
+              {
+                "id": "L0_2",
+                "label": "*Ctrl\nZ",
+                "tap": "Z",
+                "hold": "Ctrl"
+              },
+              {
+                "id": "L0_3",
+                "label": "Bootloader",
+                "tap": "Bootloader"
+              }
+            ],
+            "index_4": [
+              {
+                "id": "L1_0",
+                "label": "Kb 10",
+                "tap": "Kb 10"
+              },
+              {
+                "id": "L1_1",
+                "label": "*Win/Cmd\n←",
+                "tap": "←",
+                "hold": "Win/Cmd"
+              },
+              {
+                "id": "L1_2",
+                "label": "*Ctrl\nX",
+                "tap": "X",
+                "hold": "Ctrl"
+              },
+              {
+                "id": "L1_3",
+                "label": "Kb 0",
+                "tap": "Kb 0"
+              }
+            ],
+            "middle_4": [
+              {
+                "id": "L2_0",
+                "label": "*Win/Cmd\nV",
+                "tap": "V",
+                "hold": "Win/Cmd"
+              },
+              {
+                "id": "L2_1",
+                "label": "(*S+8)\n*",
+                "tap": "*",
+                "source_combo": "Shift + 8"
+              },
+              {
+                "id": "L2_2",
+                "label": "*Ctrl\nC",
+                "tap": "C",
+                "hold": "Ctrl"
+              },
+              {
+                "id": "L2_3",
+                "label": "▽",
+                "tap": "transparent"
+              }
+            ],
+            "ring_3": [
+              {
+                "id": "L3_0",
+                "label": "*Win/Cmd\nC",
+                "tap": "C",
+                "hold": "Win/Cmd"
+              },
+              {
+                "id": "L3_1",
+                "label": "*Win/Cmd\n→",
+                "tap": "→",
+                "hold": "Win/Cmd"
+              },
+              {
+                "id": "L3_2",
+                "label": "UG\nBright -",
+                "tap": "UG Bright -"
+              }
+            ],
+            "inner_3": [
+              {
+                "id": "L4_0",
+                "label": "*S+W\n5",
+                "tap": "5",
+                "modifiers": [
+                  "Shift",
+                  "Win"
+                ]
+              },
+              {
+                "id": "L4_1",
+                "label": "*S+W\nZ",
+                "tap": "Z",
+                "modifiers": [
+                  "Shift",
+                  "Win"
+                ]
+              },
+              {
+                "id": "L4_2",
+                "label": "Kb 9",
+                "tap": "Kb 9"
+              }
+            ]
+          },
+          "thumbs": [
+            {
+              "id": "LT0",
+              "label": "▽",
+              "tap": "transparent"
+            },
+            {
+              "id": "LT1",
+              "label": "▽",
+              "tap": "transparent"
+            },
+            {
+              "id": "LT2",
+              "label": "▽",
+              "tap": "transparent"
+            }
+          ]
+        },
+        "right": {
+          "thumbs": [
+            {
+              "id": "RT0",
+              "label": "▽",
+              "tap": "transparent"
+            },
+            {
+              "id": "RT1",
+              "label": "*Shift",
+              "hold": "Shift"
+            },
+            {
+              "id": "RT2",
+              "label": "▽",
+              "tap": "transparent"
+            }
+          ],
+          "matrix": {
+            "inner_3": [
+              {
+                "id": "R0_0",
+                "label": "(*S+,)\n<",
+                "tap": "<",
+                "source_combo": "Shift + ,"
+              },
+              {
+                "id": "R0_1",
+                "label": "*Ctrl\n↑",
+                "tap": "↑",
+                "hold": "Ctrl"
+              },
+              {
+                "id": "R0_2",
+                "label": "Kb 5",
+                "tap": "Kb 5"
+              }
+            ],
+            "ring_3": [
+              {
+                "id": "R1_0",
+                "label": "*C+S\nTab",
+                "tap": "Tab",
+                "modifiers": [
+                  "Ctrl",
+                  "Shift"
+                ]
+              },
+              {
+                "id": "R1_1",
+                "label": "*Ctrl\n←",
+                "tap": "←",
+                "hold": "Ctrl"
+              },
+              {
+                "id": "R1_2",
+                "label": "Kb 3",
+                "tap": "Kb 3"
+              }
+            ],
+            "middle_4": [
+              {
+                "id": "R2_0",
+                "label": "*Win/Cmd\n→",
+                "tap": "→",
+                "hold": "Win/Cmd"
+              },
+              {
+                "id": "R2_1",
+                "label": "*Ctrl\n→",
+                "tap": "→",
+                "hold": "Ctrl"
+              },
+              {
+                "id": "R2_2",
+                "label": "Kb 2",
+                "tap": "Kb 2"
+              },
+              {
+                "id": "R2_3",
+                "label": "▽",
+                "tap": "transparent"
+              }
+            ],
+            "index_4": [
+              {
+                "id": "R3_0",
+                "label": "*Ctrl\nTab",
+                "tap": "Tab",
+                "hold": "Ctrl"
+              },
+              {
+                "id": "R3_1",
+                "label": "*A+W\nJ",
+                "tap": "J",
+                "modifiers": [
+                  "Alt",
+                  "Win"
+                ]
+              },
+              {
+                "id": "R3_2",
+                "label": "Kb 4",
+                "tap": "Kb 4"
+              },
+              {
+                "id": "R3_3",
+                "label": "Kb 0",
+                "tap": "Kb 0"
+              }
+            ],
+            "outer_4": [
+              {
+                "id": "R4_0",
+                "label": "*A+W\n*Ctrl",
+                "hold": "Ctrl",
+                "modifiers": [
+                  "Alt",
+                  "Win"
+                ]
+              },
+              {
+                "id": "R4_1",
+                "label": "RGB\nMode\nTwinkle",
+                "tap": "RGB Mode Twinkle"
+              },
+              {
+                "id": "R4_2",
+                "label": "Audio\nVol +",
+                "tap": "Audio Vol +"
+              },
+              {
+                "id": "R4_3",
+                "label": "Audio\nVol -",
+                "tap": "Audio Vol -"
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "flat_layers": {
+    "description": "Same data flattened in physical_order.order. Values are raw visible labels with line breaks replaced by ' / '.",
+    "order": [
+      "L0_0",
+      "L0_1",
+      "L0_2",
+      "L0_3",
+      "L1_0",
+      "L1_1",
+      "L1_2",
+      "L1_3",
+      "L2_0",
+      "L2_1",
+      "L2_2",
+      "L2_3",
+      "L3_0",
+      "L3_1",
+      "L3_2",
+      "L4_0",
+      "L4_1",
+      "L4_2",
+      "LT0",
+      "LT1",
+      "LT2",
+      "RT0",
+      "RT1",
+      "RT2",
+      "R0_0",
+      "R0_1",
+      "R0_2",
+      "R1_0",
+      "R1_1",
+      "R1_2",
+      "R2_0",
+      "R2_1",
+      "R2_2",
+      "R2_3",
+      "R3_0",
+      "R3_1",
+      "R3_2",
+      "R3_3",
+      "R4_0",
+      "R4_1",
+      "R4_2",
+      "R4_3"
+    ],
+    "layer_0": [
+      "Q",
+      "A",
+      "Z",
+      "*Win",
+      "W",
+      "S",
+      "X",
+      "*Ctrl",
+      "E",
+      "D",
+      "C",
+      "*Alt",
+      "R",
+      "F",
+      "V",
+      "T",
+      "G",
+      "B",
+      "Lang 2 / *Shift",
+      "Space / Layer(1)",
+      "Lang 1 / Layer(3)",
+      "BS",
+      "Enter / Layer(2)",
+      "Lang 2 / *Shift",
+      "Y",
+      "H",
+      "N",
+      "U",
+      "J",
+      "M",
+      "I",
+      "K",
+      "< / ,",
+      "Alt*",
+      "O",
+      "L",
+      "> / .",
+      "Win*",
+      "P",
+      "- / *Win/Cmd",
+      "- / Layer(3)",
+      "*Win"
+    ],
+    "layer_1": [
+      "(*S+,) / <",
+      "Tab",
+      "(*S+=) / +",
+      "Ro",
+      "(*S+3) / #",
+      "(*S+1) / !",
+      "*Ctrl / X",
+      "+ / =",
+      "(*S+8) / *",
+      "(*S+6) / ^",
+      "(*S+') / \"",
+      "(*S+[) / {",
+      "(*S+9) / (",
+      "(*S+2) / @",
+      "*Shift / ¥",
+      "(*S+.) / >",
+      "(*S+]) / }",
+      "(*S+\\) / |",
+      "*Win",
+      "▽",
+      "Esc",
+      "*Win",
+      "*Shift",
+      "▽",
+      "Esc",
+      "*Shift / Ro",
+      "{ / [",
+      "} / ]",
+      "Mouse / Btn1",
+      "(*S+4) / $",
+      "| / \\",
+      "Mouse / Btn2",
+      "(*S+5) / %",
+      "Alt*",
+      "*Ctrl / O",
+      "? / /",
+      "*Shift / D",
+      "Win*",
+      "\" / '",
+      ": / ;",
+      "F11",
+      "F12"
+    ],
+    "layer_2": [
+      "*Ctrl / -",
+      "@ / *Win/Cmd",
+      "? / /",
+      "Esc",
+      "! / 1",
+      "$ / 4",
+      "& / 7",
+      ") / 0",
+      "@ / 2",
+      "% / 5",
+      "* / 8",
+      "> / .",
+      "# / 3",
+      "^ / 6",
+      "( / 9",
+      "- / -",
+      "(*S+\\) / |",
+      "(*S+-) / _",
+      "*Shift",
+      "*Win",
+      "*Alt",
+      "▽",
+      "▽",
+      "▽",
+      "*Win/Cmd / ←",
+      "Mouse / Btn1",
+      "(*S+\\) / |",
+      "*C+S / Tab",
+      "←",
+      "←",
+      "↑",
+      "↓",
+      "↓",
+      "▽",
+      "*Ctrl / Tab",
+      "→",
+      "→",
+      "▽",
+      "*Win/Cmd / →",
+      "Mouse / Btn2",
+      "Vol +",
+      "Vol -"
+    ],
+    "layer_3": [
+      "*S+W / 4",
+      "*S+A / F12",
+      "*Ctrl / Z",
+      "Bootloader",
+      "Kb 10",
+      "*Win/Cmd / ←",
+      "*Ctrl / X",
+      "Kb 0",
+      "*Win/Cmd / V",
+      "(*S+8) / *",
+      "*Ctrl / C",
+      "▽",
+      "*Win/Cmd / C",
+      "*Win/Cmd / →",
+      "UG / Bright -",
+      "*S+W / 5",
+      "*S+W / Z",
+      "Kb 9",
+      "▽",
+      "▽",
+      "▽",
+      "▽",
+      "*Shift",
+      "▽",
+      "(*S+,) / <",
+      "*Ctrl / ↑",
+      "Kb 5",
+      "*C+S / Tab",
+      "*Ctrl / ←",
+      "Kb 3",
+      "*Win/Cmd / →",
+      "*Ctrl / →",
+      "Kb 2",
+      "▽",
+      "*Ctrl / Tab",
+      "*A+W / J",
+      "Kb 4",
+      "Kb 0",
+      "*A+W / *Ctrl",
+      "RGB / Mode / Twinkle",
+      "Audio / Vol +",
+      "Audio / Vol -"
+    ]
+  }
+}
