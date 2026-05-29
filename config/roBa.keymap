@@ -81,8 +81,8 @@
         default_layer {
             bindings = <
 &kp Q         &kp W             &kp E         &kp R                 &kp T                                          &kp Y        &kp U  &kp I      &kp O    &kp P
-&kp A         &kp S             &kp D         &kp F                 &kp G        &kp LS(LG(S))      &kp MINUS      &kp H        &kp J  &kp K      &kp L    &mt LEFT_WIN MINUS
-&kp Z         &kp X             &kp C         &kp V                 &kp B        &kp COLON          &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &lt 3 MINUS
+&kp A         &kp S             &kp D         &kp F                 &kp G        &kp LS(LG(S))      &kp MINUS      &kp H        &kp J  &kp K      &kp L    &lt 3 MINUS
+&kp Z         &kp X             &kp C         &kp V                 &kp B        &kp COLON          &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &lt 6 MINUS
 &kp LEFT_WIN  &kp LEFT_CONTROL  &kp LEFT_ALT  &mt LEFT_SHIFT LANG2  &lt 1 SPACE  &lt 3 LANG1        &kp BACKSPACE  &lt 2 ENTER                             &kp LEFT_WIN
             >;
 
@@ -109,10 +109,10 @@
 
         ARROW {
             bindings = <
-&kp LS(LG(NUMBER_4))  &none               &kp LG(V)           &kp LG(C)            &kp LS(LG(NUMBER_5))                      &kp LESS_THAN     &kp LC(LS(TAB))     &kp LG(RIGHT_ARROW)  &kp LC(TAB)    &none
-&kp LS(LA(F12))       &kp LG(LEFT_ARROW)  &kp ASTERISK        &kp LG(RIGHT_ARROW)  &kp LG(Z)             &trans      &trans  &kp LC(UP_ARROW)  &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)  &kp LA(LG(J))  &none
-&mt LEFT_CONTROL Z    &mt LEFT_CONTROL X  &mt LEFT_CONTROL C  &none                &none                 &trans      &trans  &none             &none               &none                &none          &kp C_VOLUME_UP
-&bootloader           &none               &trans              &trans               &trans                &trans      &trans  &kp LEFT_SHIFT                                                            &kp C_VOLUME_DOWN
+&kp LS(LG(NUMBER_4))  &none               &kp LG(V)     &kp LG(C)                  &kp LS(LG(NUMBER_5))                      &kp LESS_THAN     &kp LC(LS(TAB))     &kp LG(RIGHT_ARROW)  &kp LC(O)      &none
+&kp LG(A)             &kp LG(LEFT_ARROW)  &kp ASTERISK  &kp LG(RIGHT_ARROW)        &kp LG(Z)             &trans      &trans  &kp LC(UP_ARROW)  &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)  &kp LA(LG(J))  &none
+&kp LG(Z)             &mt LEFT_CONTROL X  &kp LG(C)     &none                      &none                 &trans      &trans  &none             &none               &none                &none          &kp C_VOLUME_UP
+&bootloader           &none               &trans        &mt LEFT_SHIFT LEFT_SHIFT  &trans                &trans      &trans  &kp LEFT_SHIFT                                                            &kp C_VOLUME_DOWN
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
@@ -138,10 +138,10 @@
 
         layer_6 {
             bindings = <
-&trans  &trans        &trans        &trans        &trans                           &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
-&trans  &trans        &trans        &trans        &trans  &trans      &trans       &trans        &trans        &trans        &trans        &trans
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans      &bootloader  &trans        &trans        &trans        &trans        &bt BT_CLR
-&trans  &trans        &trans        &trans        &trans  &trans      &trans       &trans                                                  &bt BT_CLR_ALL
+&trans  &trans        &trans     &trans        &trans                           &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
+&trans  &trans        &trans     &trans        &trans  &trans      &trans       &trans        &trans        &trans        &trans        &trans
+&trans  &kp NUMBER_1  &kp LC(C)  &kp NUMBER_3  &trans  &trans      &bootloader  &trans        &trans        &trans        &trans        &bt BT_CLR
+&trans  &trans        &trans     &trans        &trans  &trans      &trans       &trans                                                  &bt BT_CLR_ALL
             >;
         };
     };
