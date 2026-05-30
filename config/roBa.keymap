@@ -109,10 +109,10 @@
 
         ARROW {
             bindings = <
-&kp LG(Q)    &kp LG(W)           &kp LG(E)  &kp LG(R)                  &kp LG(T)                      &kp LESS_THAN     &kp LC(LS(TAB))  &kp LG(RIGHT_ARROW)  &kp LC(O)      &kp LG(P)
-&kp LG(A)    &kp LG(S)           &kp LG(D)  &kp LG(F)                  &kp LG(Z)  &trans      &trans  &kp LC(UP_ARROW)  &kp LC(LEFT)     &kp LC(RIGHT_ARROW)  &kp LA(LG(J))  &none
-&kp LG(Z)    &mt LEFT_CONTROL X  &kp LG(C)  &kp LG(V)                  &none      &trans      &trans  &none             &none            &none                &none          &kp C_VOLUME_UP
-&bootloader  &none               &trans     &mt LEFT_SHIFT LEFT_SHIFT  &trans     &trans      &trans  &kp LEFT_SHIFT                                                         &kp C_VOLUME_DOWN
+&kp LG(Q)    &kp LG(W)           &kp LG(E)  &kp LG(R)                  &kp LG(T)                          &kp LESS_THAN     &kp LC(LS(TAB))  &kp LG(RIGHT_ARROW)  &kp LC(O)      &kp LG(P)
+&kp LG(A)    &kp LG(S)           &kp LG(D)  &kp LG(F)                  &kp LG(Z)      &trans      &trans  &kp LC(UP_ARROW)  &kp LC(LEFT)     &kp LC(RIGHT_ARROW)  &kp LA(LG(J))  &none
+&kp LG(Z)    &mt LEFT_CONTROL X  &kp LG(C)  &kp LG(V)                  &none          &trans      &trans  &kp LG(N)         &none            &none                &none          &kp C_VOLUME_UP
+&bootloader  &none               &trans     &mt LEFT_SHIFT LEFT_SHIFT  &kp LG(SPACE)  &trans      &trans  &kp LEFT_SHIFT                                                         &kp C_VOLUME_DOWN
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
