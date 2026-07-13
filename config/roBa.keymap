@@ -116,19 +116,19 @@
 
         NUM {
             bindings = <
-&kp NUMBER_1  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3    &kp NUMBER_5                              &kp LG(LEFT_ARROW)  &kp LC(LS(TAB))  &kp UP_ARROW    &kp LC(TAB)      &kp LG(RIGHT_ARROW)
-&kp N0        &kp NUMBER_4  &kp N5        &kp NUMBER_6    &kp NUMBER_0    &trans            &trans  &mkp MB1            &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &mkp MB2
-&kp SLASH     &kp N7        &kp N8        &kp N9          &kp UNDERSCORE  &trans            &trans  &kp PIPE            &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp C_VOLUME_UP
-&kp ESCAPE    &kp NUMBER_0  &kp DOT       &kp LEFT_SHIFT  &kp LEFT_WIN    &kp LEFT_ALT      &trans  &trans                                                                &kp C_VOLUME_DOWN
+&kp NUMBER_1               &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3    &kp NUMBER_5                              &kp LG(LEFT_ARROW)  &kp LC(LS(TAB))  &kp UP_ARROW    &kp LC(TAB)      &kp LG(RIGHT_ARROW)
+&mt LEFT_COMMAND NUMBER_0  &kp NUMBER_4  &kp N5        &kp NUMBER_6    &kp NUMBER_0    &trans            &trans  &mkp MB1            &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &mkp MB2
+&kp SLASH                  &kp N7        &kp N8        &kp N9          &kp UNDERSCORE  &trans            &trans  &kp PIPE            &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp C_VOLUME_UP
+&kp ESCAPE                 &kp NUMBER_0  &kp DOT       &kp LEFT_SHIFT  &kp LEFT_WIN    &kp LEFT_ALT      &trans  &trans                                                                &kp C_VOLUME_DOWN
             >;
         };
 
         ARROW {
             bindings = <
-&kp LG(Q)    &kp LG(W)           &kp LG(E)  &kp LG(R)                  &kp LG(T)                            &kp LESS_THAN     &kp LC(LS(TAB))  &kp LG(RIGHT_ARROW)  &kp LC(O)      &kp LG(P)
-&kp LG(A)    &kp LG(S)           &kp LG(D)  &kp LG(F)                  &kp LG(Z)        &trans      &trans  &kp LC(UP_ARROW)  &kp LC(LEFT)     &kp LC(RIGHT_ARROW)  &kp LA(LG(J))  &none
-&kp LG(Z)    &mt LEFT_CONTROL X  &kp LG(C)  &kp LG(V)                  &none            &trans      &trans  &kp LG(N)         &none            &none                &none          &kp C_VOLUME_UP
-&bootloader  &none               &trans     &mt LEFT_SHIFT LEFT_SHIFT  &lt 7 LG(SPACE)  &trans      &trans  &kp LEFT_SHIFT                                                         &kp C_VOLUME_DOWN
+&kp LG(Q)    &kp LG(W)           &kp LG(E)  &kp LG(R)                  &kp LG(T)                            &kp LESS_THAN     &kp LC(LS(TAB))  &kp LG(RIGHT_ARROW)  &kp LC(O)  &kp LG(P)
+&kp LG(A)    &kp LG(S)           &kp LG(D)  &kp LG(F)                  &kp LG(Z)        &trans      &trans  &kp LC(UP_ARROW)  &kp LC(LEFT)     &kp LC(RIGHT_ARROW)  &kp LG(L)  &none
+&kp LG(Z)    &mt LEFT_CONTROL X  &kp LG(C)  &kp LG(V)                  &none            &trans      &trans  &kp LG(N)         &none            &kp LG(COMMA)        &none      &kp C_VOLUME_UP
+&bootloader  &none               &trans     &mt LEFT_SHIFT LEFT_SHIFT  &lt 7 LG(SPACE)  &trans      &trans  &kp LEFT_SHIFT                                                     &kp C_VOLUME_DOWN
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
@@ -155,7 +155,7 @@
         layer_6 {
             bindings = <
 &trans     &kp LC(NUMBER_1)  &kp LC(NUMBER_2)  &kp LC(NUMBER_3)  &trans                           &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
-&trans     &trans            &trans            &trans            &trans  &trans      &trans       &trans        &trans        &trans        &trans        &trans
+&trans     &trans            &trans            &trans            &trans  &trans      &trans       &trans        &kp LG(J)     &trans        &trans        &trans
 &kp LC(Z)  &kp NUMBER_1      &kp LC(C)         &kp NUMBER_3      &trans  &trans      &bootloader  &trans        &trans        &trans        &trans        &bt BT_CLR
 &trans     &trans            &trans            &trans            &trans  &trans      &trans       &trans                                                  &bt BT_CLR_ALL
             >;
